@@ -1,0 +1,10 @@
+framework module AlamoWater {
+  umbrella header "AlamoWater.h"
+
+  export *
+  module * { export * }
+}
+
+module AlamoWater.__Swift {
+    exclude header "AlamoWater-Swift.h"
+}

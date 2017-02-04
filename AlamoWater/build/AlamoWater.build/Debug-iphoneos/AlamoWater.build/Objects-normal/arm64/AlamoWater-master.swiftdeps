@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "3d63b64188cce1099062794f2143930e"
+build_time: [539530678, 817830000]
+inputs:
+  "/Users/zaid.pathan/Projects/Medium/AlamoWater/AlamoWater/AlamoWater.swift": [539530207, 0]
