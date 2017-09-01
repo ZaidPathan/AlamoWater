@@ -8,8 +8,16 @@
 
 import UIKit
 
+import UIKit
+
+public protocol AlamoWaterProtocol {
+    func didCallHello()
+}
+
 open class AlamoWater: NSObject {
-    open class func hello(){
+    open var delegate:AlamoWaterProtocol?
+    open func hello(){
         debugPrint("Hello from AlamoWater!")
+        delegate?.didCallHello()
     }
 }
