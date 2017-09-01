@@ -15,7 +15,7 @@ public protocol AlamoWaterProtocol {
 }
 
 open class AlamoWater: NSObject {
-    open var delegate:AlamoWaterProtocol?
+    public var delegate:AlamoWaterProtocol?
     open func hello(){
         debugPrint("Hello from AlamoWater!")
         delegate?.didCallHello()
