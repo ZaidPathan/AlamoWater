@@ -7,4 +7,5 @@ framework module AlamoWater {
 
 module AlamoWater.Swift {
     header "AlamoWater-Swift.h"
+    requires objc
 }

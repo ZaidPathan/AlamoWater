@@ -4,28 +4,28 @@
   'roots': [
     {
       'type': 'directory',
-      'name': "/Users/zaid.pathan/Library/Developer/Xcode/DerivedData/AlamoWater-hlekqzlcxeijawbudjmiipjdzysl/Build/Products/Debug-iphonesimulator/AlamoWater.framework/Headers",
+      'name': "/Users/zaidpathan/Library/Developer/Xcode/DerivedData/AlamoWater-fzybbvzgykvsxybxcobbznmpbzkr/Build/Products/Debug-iphonesimulator/AlamoWater.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "AlamoWater-Swift.h",
-          'external-contents': "/Users/zaid.pathan/Library/Developer/Xcode/DerivedData/AlamoWater-hlekqzlcxeijawbudjmiipjdzysl/Build/Products/Debug-iphonesimulator/AlamoWater.framework/Headers/AlamoWater-Swift.h"
+          'external-contents': "/Users/zaidpathan/Library/Developer/Xcode/DerivedData/AlamoWater-fzybbvzgykvsxybxcobbznmpbzkr/Build/Products/Debug-iphonesimulator/AlamoWater.framework/Headers/AlamoWater-Swift.h"
         },
         {
           'type': 'file',
           'name': "AlamoWater.h",
-          'external-contents': "/Users/zaid.pathan/Projects/Medium/AlamoWater/AlamoWater/AlamoWater.h"
+          'external-contents': "/Users/zaidpathan/Projects/OpenSource/Alamowater_GIT/AlamoWater/AlamoWater/AlamoWater.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/zaid.pathan/Library/Developer/Xcode/DerivedData/AlamoWater-hlekqzlcxeijawbudjmiipjdzysl/Build/Products/Debug-iphonesimulator/AlamoWater.framework/Modules",
+      'name': "/Users/zaidpathan/Library/Developer/Xcode/DerivedData/AlamoWater-fzybbvzgykvsxybxcobbznmpbzkr/Build/Products/Debug-iphonesimulator/AlamoWater.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/zaid.pathan/Projects/Medium/AlamoWater/build/AlamoWater.build/Debug-iphonesimulator/AlamoWater.build/module.modulemap"
+          'external-contents': "/Users/zaidpathan/Projects/OpenSource/Alamowater_GIT/AlamoWater/build/AlamoWater.build/Debug-iphonesimulator/AlamoWater.build/module.modulemap"
         }
       ]
     }
