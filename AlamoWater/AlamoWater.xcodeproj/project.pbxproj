@@ -21,11 +21,13 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		1590D1511FF3D6750064AE56 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1590D1501FF3D6750064AE56 /* Alamofire.framework */; };
 		FC84EC241E445586006BE97F /* AlamoWater.h in Headers */ = {isa = PBXBuildFile; fileRef = FC84EC221E445586006BE97F /* AlamoWater.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FC84EC2B1E4456D8006BE97F /* AlamoWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC84EC2A1E4456D8006BE97F /* AlamoWater.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1590D1501FF3D6750064AE56 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = SOURCE_ROOT; };
 		FC84EC1F1E445586006BE97F /* AlamoWater.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AlamoWater.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC84EC221E445586006BE97F /* AlamoWater.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlamoWater.h; sourceTree = "<group>"; };
 		FC84EC231E445586006BE97F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -37,12 +39,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1590D1511FF3D6750064AE56 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1590D14F1FF3D66A0064AE56 /* AlamoWater-framework */ = {
+			isa = PBXGroup;
+			children = (
+				1590D1501FF3D6750064AE56 /* Alamofire.framework */,
+			);
+			path = "AlamoWater-framework";
+			sourceTree = "<group>";
+		};
 		FC84EC151E445585006BE97F = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +73,7 @@
 		FC84EC211E445586006BE97F /* AlamoWater */ = {
 			isa = PBXGroup;
 			children = (
+				1590D14F1FF3D66A0064AE56 /* AlamoWater-framework */,
 				FC84EC221E445586006BE97F /* AlamoWater.h */,
 				FC84EC231E445586006BE97F /* Info.plist */,
 				FC84EC2A1E4456D8006BE97F /* AlamoWater.swift */,
@@ -302,6 +314,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = AlamoWater/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -324,6 +341,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = AlamoWater/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

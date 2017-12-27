@@ -1,0 +1,11 @@
+framework module AlamoWater {
+  umbrella header "AlamoWater.h"
+
+  export *
+  module * { export * }
+}
+
+module AlamoWater.Swift {
+    header "AlamoWater-Swift.h"
+    requires objc
+}

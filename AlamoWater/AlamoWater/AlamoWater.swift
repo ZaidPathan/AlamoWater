@@ -7,8 +7,7 @@
 //
 
 import UIKit
-
-import UIKit
+import Alamofire
 
 public protocol AlamoWaterProtocol {
     func didCallHello()
@@ -22,5 +21,8 @@ open class AlamoWater: NSObject {
     open func hello(){
         debugPrint("Hello from AlamoWater!")
         AlamoWater.shared.delegate?.didCallHello()
+        Alamofire.request("https://apple.com").downloadProgress { (progress) in
+            debugPrint(progress)
+        }
     }
 }
