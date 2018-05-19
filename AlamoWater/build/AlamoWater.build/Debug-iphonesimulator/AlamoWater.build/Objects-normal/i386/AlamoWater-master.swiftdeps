@@ -1,5 +1,5 @@
-version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
-options: "cec798f570d829eb2045e20b5d05e49b"
-build_time: [1514353798, 487494000]
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "2f0ac64853403370b2934a822583d5a4"
+build_time: [1526720022, 751516000]
 inputs:
-  "/Users/zaidpathan/Projects/OpenSource/Alamowater_GIT/AlamoWater/AlamoWater/AlamoWater.swift": [1514353789, 0]
+  "/Users/zaidpathan/Projects/OpenSource/Alamowater/AlamoWater/AlamoWater/AlamoWater.swift": [1526719936, 0]
